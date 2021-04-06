@@ -13,7 +13,7 @@ class CreateUserController {
 
       return response.status(201).json(user);
     } catch (error) {
-      response.status(400).json({error});
+      response.status(400).json({ error });
     }
   }
 }
